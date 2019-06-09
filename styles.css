@@ -1,8 +1,22 @@
+body{
+  background: black;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
 #solar-system{
   height: 100%;
   width: 100%;
   background: black;
   position: relative;
+  margin: auto auto;
+}
+
+.celestial-bodies .label{
+  position: absolute;
+  top: -100%;
+  left: 100%;
+  color: white;
 }
 
 #sun {
@@ -21,4 +35,27 @@
   width: 30px;
   background: blue;
   border-radius: 50%;
+}
+
+button{
+  border: none;
+  padding: 8px 10px;
+  border-radius: 2px;
+}
+
+
+#controls{
+  height: 50px;
+  padding: 10px;
+  background-color: grey;
+}
+
+.control-el{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.hidden {
+  display: none;
 }

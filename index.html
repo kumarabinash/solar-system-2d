@@ -9,8 +9,24 @@
 <body>
 
   <div id="solar-system">
-    <div id="sun"></div>
-    <div id="earth" class='planet'></div>   
+    <div id="sun" class='celestial-bodies'>
+      <label class='label hidden'>Sun</label>
+    </div>
+    <div id="earth" class='planet celestial-bodies'>
+      <label class='label hidden'>Earth</label>
+    </div>   
+  </div>
+  <div id="controls">
+    <div class="control-el">
+      <button id="btn-toggle-animation">Toggle Animation</button>
+    </div>
+
+    <div class="control-el">
+      <button id="btn-toggle-labels">Toggle Labels</button>
+    </div>
+
+
+    
   </div>
   
   <script type="text/javascript" src="./script.js"></script>
